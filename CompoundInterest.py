@@ -9,7 +9,7 @@ print(age)
 
 income = int(input("How much are you paid in GHS? - "))
 
-incomeVal = (print(income))
+incomeVal = int(print(income))
 
 principal = int(input("How much are you willing to invest?(Investments start from GHS100 and above) - "))
 
@@ -26,5 +26,5 @@ finalAmount = float(principalVal * (1 + (interestRate)) ^ (time))
 
 print(finalAmount)
 
-print("This how much you'll be making at the end of the time period")
+print(f"This how much you'll be making at the end of the time period - {finalAmount}")
 	
